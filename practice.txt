@@ -8,3 +8,7 @@
 >>> print a
 this-is-a-string 
 https://www.hackerrank.com/challenges/python-string-split-and-join/problem?isFullScreen=true
+
+
+2. isalnum, isalpha, isdigit, islower, isupper
+https://www.hackerrank.com/challenges/string-validators/problem?isFullScreen=true
