@@ -12,3 +12,8 @@ https://www.hackerrank.com/challenges/python-string-split-and-join/problem?isFul
 
 2. isalnum, isalpha, isdigit, islower, isupper
 https://www.hackerrank.com/challenges/string-validators/problem?isFullScreen=true
+
+
+
+3. .capitalize(), .upper(), .lower()
+https://www.hackerrank.com/challenges/capitalize/problem?isFullScreen=true
