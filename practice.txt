@@ -71,3 +71,12 @@ We have seen the applications of union, intersection, difference and symmetric d
 We can use the following operations to create mutations to a set:
 
 .update() or |=
+
+
+
+
+7. itertools.combinations_with_replacement(iterable, r)
+This tool returns  length subsequences of elements from the input iterable allowing individual elements to be repeated more than once.
+
+Combinations are emitted in lexicographic sorted order. So, if the input iterable is sorted, the combination tuples will be produced in sorted order.
+
