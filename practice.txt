@@ -52,3 +52,19 @@ s.add()
 Sets are an unordered collection of unique values. A single set contains values of any immutable data type.
 set operations-
 https://www.hackerrank.com/challenges/symmetric-difference/problem?isFullScreen=trues
+
+from collections import Counter
+x = Counter("geeksforgeeks")
+for i in x.elements():
+	print ( i, end = " ")
+
+
+union etc.
+https://www.hackerrank.com/challenges/py-set-symmetric-difference-operation/problem?isFullScreen=true
+
+
+We have seen the applications of union, intersection, difference and symmetric difference operations, but these operations do not make any changes or mutations to the set.
+
+We can use the following operations to create mutations to a set:
+
+.update() or |=
