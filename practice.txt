@@ -58,6 +58,9 @@ x = Counter("geeksforgeeks")
 for i in x.elements():
 	print ( i, end = " ")
 
+for key, val in b.items():
+    if val == 1:
+        print(key)
 
 union etc.
 https://www.hackerrank.com/challenges/py-set-symmetric-difference-operation/problem?isFullScreen=true
