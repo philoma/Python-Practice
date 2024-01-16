@@ -102,3 +102,17 @@ Output:
 Return type: <class 'enumerate'>
 [(0, 'eat'), (1, 'sleep'), (2, 'repeat')]
 [(2, 'g'), (3, 'e'), (4, 'e'), (5, 'k')]
+
+
+9. calendar
+import calendar
+
+mm, dd, yyyy = map(int, input().split())
+weekday = calendar.weekday(yyyy, mm, dd)
+
+print(calendar.day_name[weekday].upper()) 
+
+https://docs.python.org/2/library/calendar.html#calendar.TextCalendar
+https://www.hackerrank.com/challenges/calendar-module/problem?isFullScreen=true
+
+
