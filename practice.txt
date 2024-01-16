@@ -106,11 +106,10 @@ Return type: <class 'enumerate'>
 
 9. calendar
 import calendar
+m,d,y=map(int, input().split())
+weekday=calendar.weekday(y, m, d) #0th indexed
 
-mm, dd, yyyy = map(int, input().split())
-weekday = calendar.weekday(yyyy, mm, dd)
-
-print(calendar.day_name[weekday].upper()) 
+print(calendar.day_name[weekday].upper())
 
 https://docs.python.org/2/library/calendar.html#calendar.TextCalendar
 https://www.hackerrank.com/challenges/calendar-module/problem?isFullScreen=true
