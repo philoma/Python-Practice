@@ -117,3 +117,35 @@ https://www.hackerrank.com/challenges/calendar-module/problem?isFullScreen=true
 
 10.try, except, else, finally
 
+11 class
+	class acts as a template/blueprint for the object
+	object is an instance of the class
+
+self parameter is a reference to the current instance or object of the class and it is used to access variables belonging to that class.
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+class person:
+    height=6
+    weight=71
+    
+    def info(self):
+        self.height=5
+        self.weight=56
+        print(f'height is {self.height} and weight is {self.weight}')
+        
+   
+faiz=person()     
+print(faiz.height)
+print(faiz.weight)
+
+faiz.info()
+
+o/p:
+6
+71
+height is 45 and weight is 456
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+
