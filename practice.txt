@@ -51,7 +51,7 @@ https://www.hackerrank.com/challenges/collections-counter/problem?isFullScreen=t
 s.add()
 s.update()
 s.discard()
-
+ If that value is not present, discard() does nothing, but remove() will raise a KeyError exception
 Sets are an unordered collection of unique values. A single set contains values of any immutable data type.
 set operations-
 https://www.hackerrank.com/challenges/symmetric-difference/problem?isFullScreen=trues
