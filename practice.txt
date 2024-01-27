@@ -55,6 +55,17 @@ s.discard()
 Sets are an unordered collection of unique values. A single set contains values of any immutable data type.
 set operations-
 https://www.hackerrank.com/challenges/symmetric-difference/problem?isFullScreen=trues
+https://www.hackerrank.com/challenges/py-set-symmetric-difference-operation/problem?isFullScreen=true
+https://www.hackerrank.com/challenges/py-set-mutations/problem?isFullScreen=true
+
+https://www.hackerrank.com/challenges/py-check-subset/submissions/code/364029732
+
+https://www.hackerrank.com/challenges/py-check-strict-superset/problem?isFullScreen=true
+
+
+>>> s = set("Hacker")
+>>> print s.difference("Rank")
+set(['c', 'r', 'e', 'H'])
 
 from collections import Counter
 x = Counter("geeksforgeeks")
