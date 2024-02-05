@@ -161,5 +161,19 @@ height is 45 and weight is 456
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
+try:
+  print('x')
+except:
+  print("Something went wrong")
+else:
+	print('ok')
+finally:
+  print("The 'try except' is finished")
+
+o/p:
+	x
+	ok
+	The 'try except' is finished
+
 
 
