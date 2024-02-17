@@ -202,4 +202,5 @@ list comprehension:
 	numbers=[i for i in range(1, 100) if '6' in str(i)]
 	3. Use a dictionary comprehension to count the length of each word in a sentence
 	q6_answer = {word:len(word) for word in words}
+	https://towardsdatascience.com/beginner-to-advanced-list-comprehension-practice-problems-a89604851313
 
