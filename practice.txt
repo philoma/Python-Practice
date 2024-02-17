@@ -192,3 +192,8 @@ o/p:
 	hey
 	The 'try except' is finished
 
+
+
+list comprehension:
+	List comprehensions are great because they require less lines of code, are easier to comprehend, and are generally faster than a for loop.
+	
