@@ -196,4 +196,6 @@ o/p:
 
 list comprehension:
 	List comprehensions are great because they require less lines of code, are easier to comprehend, and are generally faster than a for loop.
-	
+	Find all of the numbers from 1–100 that are divisible by 8:
+	numbers=[i for i in range(1, 100) if i%8==0]
+
