@@ -204,3 +204,9 @@ list comprehension:
 	q6_answer = {word:len(word) for word in words}
 	https://towardsdatascience.com/beginner-to-advanced-list-comprehension-practice-problems-a89604851313
 
+
+
+https://www.hackerrank.com/challenges/zipped/problem?isFullScreen=true
+use a variable in realtime expression:
+ex- i/p: polynimial expression, x  ||  o/p: value of y
+https://www.hackerrank.com/challenges/input/problem
