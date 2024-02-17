@@ -196,6 +196,10 @@ o/p:
 
 list comprehension:
 	List comprehensions are great because they require less lines of code, are easier to comprehend, and are generally faster than a for loop.
-	Find all of the numbers from 1–100 that are divisible by 8:
+	1. Find all of the numbers from 1–100 that are divisible by 8:
 	numbers=[i for i in range(1, 100) if i%8==0]
+	2. Find all of the numbers from 1–1000 that have a 6 in them
+	numbers=[i for i in range(1, 100) if '6' in str(i)]
+	3. Use a dictionary comprehension to count the length of each word in a sentence
+	q6_answer = {word:len(word) for word in words}
 
