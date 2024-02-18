@@ -269,3 +269,8 @@ aeiou matches any single character in the list aeiou (case sensitive)
 \. matches the character . with index 4610 (2E16 or 568) literally (case sensitive)
 \d matches a digit (equivalent to [0-9])
 $ asserts position at the end of the string, or before the line terminator right at the end of the string (if any)
+
+
+
+^[a-z] if string starts with a-z
+[^a-z] not including a-z
