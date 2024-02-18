@@ -278,3 +278,7 @@ $ asserts position at the end of the string, or before the line terminator right
 https://www.hackerrank.com/challenges/introduction-to-regex/problem
 
 https://www.hackerrank.com/challenges/re-split/problem
+
+
+XML:
+https://diveintopython3.net/xml.html#xml-structure
