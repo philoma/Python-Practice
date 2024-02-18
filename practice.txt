@@ -254,3 +254,18 @@ Map and Lambda Function
 https://www.hackerrank.com/challenges/map-and-lambda-expression/problem
 
 
+50. RegEx
+
+
+^[aeiou]?\d*\.\d+$
+
+
+^ asserts position at the start of the string(i.e. string must start here with aeiou(any of vowels)
+? matches the previous token between zero and one times, as many times as possible, giving back as needed (greedy)
+* matches the previous token between zero and unlimited times, as many times as possible, giving back as needed (greedy)
++ matches the previous token between one and unlimited times, as many times as possible, giving back as needed (greedy)
+aeiou matches any single character in the list aeiou (case sensitive)
+\d matches a digit (equivalent to [0-9])
+\. matches the character . with index 4610 (2E16 or 568) literally (case sensitive)
+\d matches a digit (equivalent to [0-9])
+$ asserts position at the end of the string, or before the line terminator right at the end of the string (if any)
