@@ -274,3 +274,7 @@ $ asserts position at the end of the string, or before the line terminator right
 
 ^[a-z] if string starts with a-z
 [^a-z] not including a-z
+
+https://www.hackerrank.com/challenges/introduction-to-regex/problem
+
+https://www.hackerrank.com/challenges/re-split/problem
