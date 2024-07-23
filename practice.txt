@@ -312,3 +312,7 @@ add(1, 2)
 https://www.hackerrank.com/challenges/standardize-mobile-number-using-decorators/problem
 
 
+swap the cases of each character in a string:
+s='1bCD2dE'
+print(s.swapcase())
+o/p:1BcDe
