@@ -67,6 +67,13 @@ https://www.hackerrank.com/challenges/py-check-strict-superset/problem?isFullScr
 >>> print s.difference("Rank")
 set(['c', 'r', 'e', 'H'])
 
+ H a c k e r
+-R a n k
+------------
+H   c   e r
+------------
+
+
 from collections import Counter
 x = Counter("geeksforgeeks")
 for i in x.elements():
