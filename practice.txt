@@ -195,8 +195,7 @@ finally:
   print("The 'try except' is finished")
 
 o/p:
-	x
-	hey
+	Something went wrong
 	The 'try except' is finished
 
 
