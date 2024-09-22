@@ -210,6 +210,8 @@ list comprehension:
 	q6_answer = {word:len(word) for word in words}
 	https://towardsdatascience.com/beginner-to-advanced-list-comprehension-practice-problems-a89604851313
 
+	ans=[[i, j, k] for i in range(x+1) for j in range(y+1) for k in range(z+1) if(i+j+k!=n)]
+    https://www.hackerrank.com/challenges/list-comprehensions/submissions/code/401725413
 
 
 https://www.hackerrank.com/challenges/zipped/problem?isFullScreen=true
@@ -322,3 +324,11 @@ swap the cases of each character in a string:
 s='1bCD2dE'
 print(s.swapcase())
 o/p:1BcDe
+
+
+printing float number with two decimal values:
+
+print(f"{num:.2f}")
+print(format(num,".2f"))
+
+
