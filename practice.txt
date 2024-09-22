@@ -329,6 +329,10 @@ o/p:1BcDe
 printing float number with two decimal values:
 
 print(f"{num:.2f}")
+OR
 print(format(num,".2f"))
+https://www.hackerrank.com/challenges/finding-the-percentage?isFullScreen=true
+
+
 
 
