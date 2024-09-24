@@ -15,7 +15,7 @@ https://www.hackerrank.com/challenges/string-validators/problem?isFullScreen=tru
 
 
 
-3. .capitalize(), .upper(), .lower()
+3. .capitalize(), .upper(), .lower() .title()
 https://www.hackerrank.com/challenges/capitalize/problem?isFullScreen=true
 
 
@@ -51,6 +51,7 @@ https://www.hackerrank.com/challenges/collections-counter/problem?isFullScreen=t
 s.add()
 s.update()
 s.discard()
+s.remove()
  If that value is not present, discard() does nothing, but remove() will raise a KeyError exception
 Sets are an unordered collection of unique values. A single set contains values of any immutable data type.
 set operations-
