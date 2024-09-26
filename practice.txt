@@ -336,4 +336,16 @@ https://www.hackerrank.com/challenges/finding-the-percentage?isFullScreen=true
 
 
 
+to extract from the object(unwrap+remove the delimiter: [[1, 2], [3, 4]] --> [1, 2] [3, 4] OR [1, 2] --> 1 2
+.zip()
+https://www.hackerrank.com/challenges/zipped/problem?isFullScreen=true
+
+X=[[1, 2, 3, 4],
+[1, 2, 3, 4],
+[1, 2, 3, 4]]
+
+ans=list(zip(*X)) 
+print(ans) #[(1, 1, 1), (2, 2, 2), (3, 3, 3), (4, 4, 4)]
+print(*X) # [1, 2, 3, 4] [1, 2, 3, 4] [1, 2, 3, 4]
+print(*X[0]) # 1 2 3 4
 
