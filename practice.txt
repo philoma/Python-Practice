@@ -218,7 +218,7 @@ list comprehension:
 https://www.hackerrank.com/challenges/zipped/problem?isFullScreen=true
 use a variable in realtime expression:
 ex- i/p: polynimial expression, x  ||  o/p: value of y
-https://www.hackerrank.com/challenges/input/problem
+https://www.hackerrank.com/challenges/input/problem 
 
 
 
