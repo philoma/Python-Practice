@@ -10,12 +10,12 @@ this-is-a-string
 https://www.hackerrank.com/challenges/python-string-split-and-join/problem?isFullScreen=true
 
 
-2. isalnum, isalpha, isdigit, islower, isupper
+2. isalnum, isalpha, isdigit, islower, isupper, swapcase
 https://www.hackerrank.com/challenges/string-validators/problem?isFullScreen=true
 
 
 
-3. .capitalize(), .upper(), .lower() .title()
+3. .capitalize()[ works only if we give each word of a string, not a whole string] , .upper(), .lower() .title()
 https://www.hackerrank.com/challenges/capitalize/problem?isFullScreen=true
 
 
