@@ -202,6 +202,19 @@ o/p:
 
 
 
+try:
+    x, y=map(int, input().split())
+    print('dividend is: ', x)
+    print('divisor is: ', y)
+    print('quotient: ',x//y)
+except ZeroDivisionError:
+    print("You cannot divide by zero.")
+except ValueError:
+    print("Invalid input. Please enter a valid number.")
+except Exception as e:
+    print(f"An error occurred: {e}")
+
+
 list comprehension:
 	List comprehensions are great because they require less lines of code, are easier to comprehend, and are generally faster than a for loop.
 	1. Find all of the numbers from 1–100 that are divisible by 8:
