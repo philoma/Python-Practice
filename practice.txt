@@ -374,3 +374,17 @@ The year is also evenly divisible by 400. Then it is a leap year.
 
 if(year%4==0 or year%100!=0 and year%400==0):
         leap=True
+
+
+
+https://www.hackerrank.com/challenges/designer-door-mat/submissions/code/410414803
+center etc
+------------.|.------------
+---------.|..|..|.---------
+------.|..|..|..|..|.------
+---.|..|..|..|..|..|..|.---
+----------WELCOME----------
+---.|..|..|..|..|..|..|.---
+------.|..|..|..|..|.------
+---------.|..|..|.---------
+------------.|.------------
