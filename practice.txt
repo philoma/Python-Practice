@@ -297,6 +297,8 @@ $ asserts position at the end of the string, or before the line terminator right
 ^[a-z] if string starts with a-z
 [^a-z] not including a-z
 
+{}	Exactly the specified number of occurrences
+
 https://www.hackerrank.com/challenges/introduction-to-regex/problem
 
 https://www.hackerrank.com/challenges/re-split/problem
@@ -331,6 +333,10 @@ print(x)
 x = re.findall("[^a-zA-Z]", txt)
 print(x)
 [',', ' ', ' ', ' ', ' ', '5', '9', ',', ' ', '7', '8', '8', '8', ',', ' ', '2', '3', '.', '1', '2', ' ']
+
+x = re.findall("he.{2}o", txt)
+print(x)
+['hello']
 
 XML:
 https://diveintopython3.net/xml.html#xml-structure
