@@ -56,6 +56,8 @@ s.remove()
 Sets are an unordered collection of unique values. A single set contains values of any immutable data type.
 set operations-
 https://www.hackerrank.com/challenges/symmetric-difference/problem?isFullScreen=trues
+
+.symmetric_difference()
 https://www.hackerrank.com/challenges/py-set-symmetric-difference-operation/problem?isFullScreen=true
 https://www.hackerrank.com/challenges/py-set-mutations/problem?isFullScreen=true
 
@@ -88,7 +90,7 @@ for key, val in b.items():
 	https://www.hackerrank.com/challenges/py-set-symmetric-difference-operation/problem?isFullScreen=true
 
 
-We have seen the applications of union, intersection, difference and symmetric difference operations, but these operations do not make any changes or mutations to the set.
+We have seen the applications of union, intersection, difference, and symmetric difference operations, but these operations do not make any changes or mutations to the set.
 
 We can use the following operations to create mutations to a set:
 
@@ -145,25 +147,51 @@ self parameter is a reference to the current instance or object of the class and
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 class person:
-    height=6
-    weight=71
+    height=1
+    weight=2
     
     def info(self):
-        self.height=5
-        self.weight=56
+        self.height=3
+        self.weight=4
         print(f'height is {self.height} and weight is {self.weight}')
         
    
-faiz=person()     
+faiz=person()  
+faiz.info()
+
 print(faiz.height)
 print(faiz.weight)
 
+o/p:
+height is 3 and weight is 4
+3
+4
+
+
+
+
+
+class person:
+    height=1
+    weight=2
+    
+    def info(self):
+        self.height=3
+        self.weight=4
+        print(f'height is {self.height} and weight is {self.weight}')
+        
+   
+faiz=person()  
+
+print(faiz.height)
+print(faiz.weight)
 faiz.info()
 
 o/p:
-6
-71
-height is 45 and weight is 456
+1
+2
+height is 3 and weight is 4
+
 
 
  __init__ : a constructor, automatically called when creating an object 
