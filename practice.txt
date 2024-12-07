@@ -300,7 +300,37 @@ $ asserts position at the end of the string, or before the line terminator right
 https://www.hackerrank.com/challenges/introduction-to-regex/problem
 
 https://www.hackerrank.com/challenges/re-split/problem
+import re
 
+txt = "Hello, that will be 59, 7888 dollars" 
+
+#Find all digit characters:
+
+x = re.findall("\d", txt)
+print(x)
+['5', '9', '7', '8', '8', '8', '2', '3', '1', '2']
+
+x = re.findall("\d+", txt)
+print(x)
+['59', '7888', '23', '12']
+
+
+x = re.findall("\d*", txt)
+print(x)
+['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '59', '', '', '7888', '', '', '23', '', '12', '', '', '', '', '', '', '', '', '']
+
+x = re.findall("\d?", txt)
+print(x)
+['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '5', '9', '', '', '7', '8', '8', '8', '', '', '2', '3', '', '1', '2', '', '', '', '', '', '', '', '', '']
+
+
+x = re.findall("H...o", txt)
+print(x)
+['Hello']
+
+x = re.findall("[^a-zA-Z]", txt)
+print(x)
+[',', ' ', ' ', ' ', ' ', '5', '9', ',', ' ', '7', '8', '8', '8', ',', ' ', '2', '3', '.', '1', '2', ' ']
 
 XML:
 https://diveintopython3.net/xml.html#xml-structure
