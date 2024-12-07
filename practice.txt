@@ -338,6 +338,18 @@ x = re.findall("he.{2}o", txt)
 print(x)
 ['hello']
 
+x = re.findall("falls|stays", txt)
+print(x)
+if x:
+  print("Yes, there is at least one match!")
+else:
+  print("No match")
+
+['falls']
+Yes, there is at least one match!
+
+
+
 XML:
 https://diveintopython3.net/xml.html#xml-structure
 
