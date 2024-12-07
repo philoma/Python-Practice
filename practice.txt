@@ -196,6 +196,35 @@ height is 3 and weight is 4
 
  __init__ : a constructor, automatically called when creating an object 
 
+class Person:
+    # Constructor
+    def __init__(self, name, age):
+        self.name = name  # Initializing instance attribute 'name'
+        self.age = age    # Initializing instance attribute 'age'
+    
+    # Method to display information
+    def display_info(self):
+        print(f"Name: {self.name}, Age: {self.age}")
+
+# Create an instance of the Person class
+person1 = Person("Alice", 30)
+
+# Access attributes
+print("Accessing attributes directly:")
+print(f"Name: {person1.name}, Age: {person1.age}")
+
+# Call a method to display information
+print("\nUsing a method to display information:")
+person1.display_info()
+
+
+O/P:
+Accessing attributes directly:
+Name: Alice, Age: 30
+
+Using a method to display information:
+Name: Alice, Age: 30
+
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 try:
