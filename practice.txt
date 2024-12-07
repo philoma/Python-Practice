@@ -361,7 +361,7 @@ https://www.hackerrank.com/challenges/introduction-to-regex/problem
 https://www.hackerrank.com/challenges/re-split/problem
 import re
 
-txt = "Hello, that will be 59, 7888 dollars" 
+txt = "Hello, that will be 59, 7888.12 dollars" 
 
 #Find all digit characters:
 
@@ -395,14 +395,14 @@ x = re.findall("he.{2}o", txt)
 print(x)
 ['hello']
 
-x = re.findall("falls|stays", txt)
+x = re.findall("that|stays", txt)
 print(x)
 if x:
   print("Yes, there is at least one match!")
 else:
   print("No match")
 
-['falls']
+['that']
 Yes, there is at least one match!
 
 
@@ -437,6 +437,13 @@ add(1, 2)
 
 https://www.hackerrank.com/challenges/standardize-mobile-number-using-decorators/problem
 
+
+def example_function(arg1, *args, kwarg1=None, **kwargs):
+    print(arg1, args, kwarg1, kwargs)
+
+example_function(1, 2, 3, kwarg1="value1", kwarg2="value2")
+
+o/p: 1 (2, 3) value1 {'kwarg2': 'value2'}
 
 swap the cases of each character in a string:
 s='1bCD2dE'
