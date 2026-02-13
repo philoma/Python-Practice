@@ -500,3 +500,29 @@ center etc
 ------.|..|..|..|..|.------
 ---------.|..|..|.---------
 ------------.|.------------
+
+
+
+
+
+
+
+
+	import argparse
+
+    parser = argparse.ArgumentParser(description="Extract structured JD profile.")
+    parser.add_argument("--input", required=True, help="Path to JD file (pdf/docx/txt)")
+    parser.add_argument(
+        "--prompts",
+        default=str(Path(__file__).parent.parent / "prompts" / "prompts.yaml"),
+        help="Path to prompts YAML file",
+    )
+    parser.add_argument(
+        "--output",
+        default="jd_profile.json",
+        help="Where to save JSON output",
+    )
+    args = parser.parse_args()
+
+    input_path = Path(args.input)
+    prompts_path = Path(args.prompts)
