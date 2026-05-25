@@ -16,7 +16,7 @@ stop = -1
 step = -1
 
 So it counts backwards.<br>
-Example if size = 5:<br>
+Example if n = 5:<br>
 range(4, -1, -1) gives: <br>
 
 4 3 2 1 0
