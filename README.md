@@ -61,3 +61,5 @@ Hello-world
 [('a', 'b', 'c'), ('a', 'c', 'b'), ('b', 'a', 'c'), ('b', 'c', 'a'), ('c', 'a', 'b'), ('c', 'b', 'a')]
 https://www.hackerrank.com/challenges/itertools-permutations/problem?isFullScreen=true
 
+string:(why enumerate)
+https://www.hackerrank.com/challenges/the-minion-game/problem?isFullScreen=true
